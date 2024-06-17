@@ -22,7 +22,7 @@
   gap: 20px; /* Space between cards */
   width: 1100px;
   height: 570px;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .home-cards::-webkit-scrollbar {
