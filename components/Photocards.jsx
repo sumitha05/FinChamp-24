@@ -1,23 +1,23 @@
 import React from 'react';
-import '../styles/components/Photocards.css';
-import Image from 'next/image'; // Import the CSS file for styling
+import Image from 'next/image';
+import "./PhotoCards.css"
 
 // Import images
-import img1 from '../public/assets/Photos/img1.jpg';
-import img2 from '../public/assets/Photos/img2.jpg';
-import img3 from '../public/assets/Photos/img13.jpg';
-import img4 from '../public/assets/Photos/img4.jpg';
-import img5 from '../public/assets/Photos/img5.jpg';
-import img6 from '../public/assets/Photos/img8.jpg';
-import img7 from '../public/assets/Photos/img12.jpg';
-import img8 from '../public/assets/Photos/img3.jpg';
-import img9 from '../public/assets/Photos/img9.jpg';
-import img10 from '../public/assets/Photos/img10.jpg';
-import img11 from '../public/assets/Photos/img3.jpg';
-import img12 from '../public/assets/Photos/img7.jpg';
-import img13 from '../public/assets/Photos/img6.jpg';
-import img14 from '../public/assets/Photos/img14.jpg';
-import img15 from '../public/assets/Photos/img15.jpg';
+import img1 from '@/public/assets/Photos/img1.jpg';
+import img2 from '@/public/assets/Photos/img2.jpg';
+import img3 from '@/public/assets/Photos/img13.jpg';
+import img4 from '@/public/assets/Photos/img4.jpg';
+import img5 from '@/public/assets/Photos/img5.jpg';
+import img6 from '@/public/assets/Photos/img8.jpg';
+import img7 from '@/public/assets/Photos/img12.jpg';
+import img8 from '@/public/assets/Photos/img3.jpg';
+import img9 from '@/public/assets/Photos/img9.jpg';
+import img10 from '@/public/assets/Photos/img10.jpg';
+import img11 from '@/public/assets/Photos/img3.jpg';
+import img12 from '@/public/assets/Photos/img7.jpg';
+import img13 from '@/public/assets/Photos/img6.jpg';
+import img14 from '@/public/assets/Photos/img14.jpg';
+import img15 from '@/public/assets/Photos/img15.jpg';
 
 
 const images = [

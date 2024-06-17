@@ -177,7 +177,7 @@ export const Quiz = ({
                 width={50}
                 />
                 <h1 className="text-xl lg:text-3xl font-bold text-neutral-700">
-                    Great Job! <br/> You've completed the lesson.
+                    Great Job! <br/> You&apos;ve completed the lesson.
                 </h1>
                 <div className="flex items-center gap-x-4 w-full">
                     <ResultCard 
@@ -222,9 +222,11 @@ export const Quiz = ({
                 </h1>
                 <div >
                     {challenge.type === "ASSIST" && (
+                        //@ts-ignore
                         <QuestionBubble question={challenge.question}/>
                     )},
                     {challenge.type === "VIDEO" && (
+                        //@ts-ignore
                         <VideoPlayer src={challenge.videoSrc}/>
                     )}
                     <Challenge

@@ -18,7 +18,7 @@ function Workinginfo() {
             <div className='header-content'>
                 <div className='header-left'>
                     <h1>Financial Opportunities for Women</h1>
-                    <p>Explore financial opportunities tailored to women's needs, including scholarships, loans, financial aid, internships, and career development.</p>
+                    <p>Explore financial opportunities tailored to women&apos;s needs, including scholarships, loans, financial aid, internships, and career development.</p>
                 </div>
                 <div className="header-right">
                     <Image src={woman} alt="Scholarship" width={100} height={100}/>
@@ -47,7 +47,7 @@ function Workinginfo() {
       <section className="w-loans">
         <div className='div'>
         <h2>Loans</h2>
-        <p>Explore loans designed to support women's financial needs:</p>
+        <p>Explore loans designed to support women&apos;s financial needs:</p>
         <ul>
           <li>
             <h3>Small Business Administration (SBA) Loans for Women-Owned Businesses</h3>
@@ -89,7 +89,7 @@ function Workinginfo() {
       <section className="w-career-development">
         <div className='div'>
         <h2>Career Development</h2>
-        <p>Discover resources for women's career advancement and professional growth:</p>
+        <p>Discover resources for women&apos;s career advancement and professional growth:</p>
         <ul>
           <li>
             <h3>Lean In</h3>

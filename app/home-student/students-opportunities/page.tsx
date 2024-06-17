@@ -16,7 +16,7 @@ function Studentinfo() {
             <div className="header-content">
               <div className="header-left">
                 <h1>Financial Opportunities for Students</h1>
-                <p>Explore a range of financial opportunities tailored to students' needs, including scholarships, grants, financial aid, internships, and freelance work.</p>
+                <p>Explore a range of financial opportunities tailored to students&apos; needs, including scholarships, grants, financial aid, internships, and freelance work.</p>
               </div>
               <div className="header-right">
                 <Image src={scholarship} alt="Scholarship" width={100} height={100} />
@@ -86,7 +86,7 @@ function Studentinfo() {
               </li>
               <li>
                 <h3>LinkedIn</h3>
-                <p>Explore internship opportunities posted by companies on LinkedIn's job board. <a href="https://www.linkedin.com/jobs/internship-jobs/" target="_blank" rel="noopener noreferrer">Visit Website</a></p>
+                <p>Explore internship opportunities posted by companies on LinkedIn&apos;s job board. <a href="https://www.linkedin.com/jobs/internship-jobs/" target="_blank" rel="noopener noreferrer">Visit Website</a></p>
               </li>
               <li>
                 <h3>Indeed</h3>
@@ -107,11 +107,11 @@ function Studentinfo() {
               </li>
               <li>
                 <h3>Fiverr</h3>
-                <p>Offer your skills and services to clients worldwide on Fiverr's freelance platform. <a href="https://www.fiverr.com/" target="_blank" rel="noopener noreferrer">Visit Website</a></p>
+                <p>Offer your skills and services to clients worldwide on Fiverr&apos;s freelance platform. <a href="https://www.fiverr.com/" target="_blank" rel="noopener noreferrer">Visit Website</a></p>
               </li>
               <li>
                 <h3>Toptal</h3>
-                <p>Join Toptal's network of top freelancers and work on high-quality projects with leading companies. <a href="https://www.toptal.com/" target="_blank" rel="noopener noreferrer">Visit Website</a></p>
+                <p>Join Toptal&apos;s network of top freelancers and work on high-quality projects with leading companies. <a href="https://www.toptal.com/" target="_blank" rel="noopener noreferrer">Visit Website</a></p>
               </li>
             </ul>
           </section>

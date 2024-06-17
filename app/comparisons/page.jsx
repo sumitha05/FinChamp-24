@@ -23,7 +23,7 @@ const ComparisionsCards = () => {
         <div className='header'>
         <h1>Discover the Best Financial Products for You</h1>
         <p className="compare-subheading">
-          Compare and find the right financial products to meet your needs. From credit cards to savings accounts, travel cards, and more, we've got you covered.
+          Compare and find the right financial products to meet your needs. From credit cards to savings accounts, travel cards, and more, we&apos;ve got you covered.
         </p>
         </div>
         
