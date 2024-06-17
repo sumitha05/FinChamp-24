@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["video.d.ts", "next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/home-student/page.jsx", "app/home-student/students-oppurtunities.jsx"],
+  "include": ["video.d.ts", "next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/home-student/page.jsx", "app/home-student/students-oppurtunities.jsx", "app/chatBot.jsx"],
   "exclude": ["node_modules"]
 }

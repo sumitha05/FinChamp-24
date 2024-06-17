@@ -5,7 +5,7 @@ import { UserProgress } from "@/components/user-progress";
 import { getUnits, getUserProgress, getCourseProgress, getLessonPercentage } from "@/db/queries";
 import { redirect } from "next/navigation";
 import { Unit } from "./unit";
-import Chatbot from "@/app/chatBot";
+import Chatbot from "@/app/ChatBot";
 
 const LearnPage = async () => {
     const userProgressData = getUserProgress();
@@ -60,8 +60,8 @@ const LearnPage = async () => {
                ))}
             </FeedWrapper>
             <div>
-            <Chatbot/>
             </div>
+            <Chatbot/>
         </div>
     );
 };

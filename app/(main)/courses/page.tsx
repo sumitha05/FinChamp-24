@@ -1,6 +1,6 @@
 import {getCourses, getUserProgress} from "@/db/queries";
 import { List } from "./list";
-import Chatbot from '@/app/chatBot';
+import Chatbot from '@/app/ChatBot';
 
 
 const CoursesPage = async () => {
@@ -25,8 +25,8 @@ const CoursesPage = async () => {
                 activeCourseId={userProgress?.activeCourseId}
             />
             <div >
-                <Chatbot />
             </div>
+            <Chatbot/>
         </div>
     );
 };

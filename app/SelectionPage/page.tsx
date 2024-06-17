@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { ClerkLoading, useAuth } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";
 import "./SelectionPage.css";
+import Chatbot from "../ChatBot";
 
 interface Selection {
   country: string;
@@ -157,6 +158,7 @@ export default function SelectionPage() {
           </ClerkLoading>
         </div>
       </div>
+      <Chatbot/>
     </div>
   );
 }

@@ -74,8 +74,9 @@ const PersonalNews = () => {
         <MainNews />
 
       </div>
-      <Footer />
-      <Chatbot/>
+       <Footer />
+<Chatbot/>
+       
     </>
   );
 }

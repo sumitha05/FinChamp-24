@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import "@/styles/pages/home-retiree.css"
 import retire from "@/public/assets/retirement1.png";
-import Chatbot from "@/app/chatBot";
+import Chatbot from "@/app/ChatBot";
 
 
 
@@ -68,7 +68,7 @@ function Retireeinfo() {
       </div>
     </div>
         <Footer/>
-        <Chatbot/>
+         
     </>
 
   );

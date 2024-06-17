@@ -5,7 +5,7 @@ import { redirect } from "next/navigation";
 import { FeedWrapper } from "@/components/feed-wrapper";
 import Image from "next/image";
 import { Items } from "./items";
-import Chatbot from "@/app/chatBot";
+import Chatbot from "@/app/ChatBot";
 
 const ShopPage = async () => {
     const userProgressData = getUserProgress();
@@ -50,8 +50,8 @@ const ShopPage = async () => {
                 </div>
             </FeedWrapper>
             <div>
-            <Chatbot/>
             </div>
+            <Chatbot/>
         </div>
     );
 };

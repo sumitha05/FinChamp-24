@@ -74,7 +74,7 @@ const CashBack = () => {
       ))}
     </div>
       <Footer/>
-      <Chatbot/>
+       
     </>
  
   );

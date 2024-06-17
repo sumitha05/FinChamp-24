@@ -63,8 +63,8 @@ const Business = () => {
           </div>
         ))}
       </div>
-      <Footer />
-      <Chatbot/>
+       <Footer />
+<Chatbot/>
     </>
  
   );

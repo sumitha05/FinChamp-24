@@ -65,7 +65,7 @@ const BestCards = () => {
       ))}
     </div>
       <Footer/>
-      <Chatbot/>
+       
     </>
  
   );

@@ -92,7 +92,8 @@ const ComparisionsCards = () => {
           </div>
         </div>
       </div>
-      <Footer />
+       <Footer />
+<Chatbot/>
     </>
   );
 };

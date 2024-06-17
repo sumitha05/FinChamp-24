@@ -88,7 +88,7 @@ const TCreditCards = () => {
       ))}
     </div>
       <Footer/>
-      <Chatbot/>
+       
     </>
  
   );

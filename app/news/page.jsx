@@ -7,7 +7,7 @@ import MainNews from '../../components/Photocards';
 import Image from 'next/image';
 
 import "../../styles/pages/news.css"
-import Chatbot from "@/app/chatBot";
+import Chatbot from "@/app/ChatBot";
 
 const NewsMainPage = () => {
 
@@ -75,8 +75,9 @@ const NewsMainPage = () => {
         <MainNews />
 
       </div>
-      <Footer />
+       <Footer />
       <Chatbot/>
+       
     </>
   );
 }

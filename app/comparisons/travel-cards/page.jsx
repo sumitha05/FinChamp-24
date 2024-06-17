@@ -64,8 +64,9 @@ const TravelCards = () => {
           ))}
         </div>
       </div>
-      <Footer />
-      <Chatbot/>
+       <Footer />
+<Chatbot/>
+       
     </>
 
   );

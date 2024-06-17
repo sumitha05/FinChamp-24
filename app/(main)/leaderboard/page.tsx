@@ -6,7 +6,7 @@ import { FeedWrapper } from "@/components/feed-wrapper";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
-import Chatbot from "@/app/chatBot";
+import Chatbot from "@/app/ChatBot";
 
 const LeaderboardPage = async () => {
     const userProgressData = getUserProgress();
@@ -74,8 +74,8 @@ const LeaderboardPage = async () => {
                 </div>
             </FeedWrapper>
             <div>
-            <Chatbot/>
             </div>
+            <Chatbot/>
         </div>
     );
 };

@@ -5,7 +5,7 @@ import car from "@/public/assets/car.png"
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import "@/styles/pages/home/comparsions/car-insurance.css"
-import Chatbot from "@/app/chatBot";
+
 
 const CarInsurance = () => {
   // Example car insurance data
@@ -65,8 +65,9 @@ const CarInsurance = () => {
           ))}
         </div>
       </div>
-      <Footer />
-      <Chatbot/>
+       <Footer />
+<Chatbot/>
+       
     </>
 
   );

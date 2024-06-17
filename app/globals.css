@@ -80,3 +80,12 @@
       @apply bg-background text-foreground;
     }
   }
+
+
+export {};
+
+declare global {
+  interface Window {
+    botpressWebChat: any;
+  }
+}

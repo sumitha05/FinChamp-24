@@ -7,7 +7,7 @@ import MainNews from '@/components/Photocards';
 import Image from 'next/image';
 
 import "@/styles/pages/news.css"
-import Chatbot from "@/app/chatBot";
+import Chatbot from "@/app/ChatBot";
 
 const EconomicsNews = () => {
 
@@ -73,8 +73,9 @@ const EconomicsNews = () => {
         <MainNews />
 
       </div>
-      <Footer />
-      <Chatbot/>
+       <Footer />
+<Chatbot/>
+       
     </>
   );
 }

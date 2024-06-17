@@ -64,7 +64,7 @@ const Personal = () => {
         ))}
       </div>
       <Footer/>
-      <Chatbot/>
+       
     </>
 
   );

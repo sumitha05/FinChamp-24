@@ -6,7 +6,7 @@ import FinanceTopics from '../../components/home/finance-topics';
 import Headlines from "../../components/home/headlines"
 import "../../styles/pages/home-student/homes.css";
 import PhotoCards from '../../components/Photocards';
-import Chatbot from "@/app/chatBot";
+import Chatbot from "@/app/ChatBot";
 
 
 import StockPriceChecker from '../../components/home/stockprice';
@@ -45,8 +45,8 @@ const HomeWorking = () => {
         <PhotoCards/>
       </div>
       
-      <Footer />
-      <Chatbot/>
+       <Footer />
+<Chatbot/>
     </div>
   );
 };

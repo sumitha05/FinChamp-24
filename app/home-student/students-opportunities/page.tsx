@@ -4,7 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import scholarship from "@/public/assets/scholarship.png";
 import "@/styles/pages/home-student/studentsopportunities.css";
-import Chatbot from "@/app/chatBot";
+import Chatbot from "@/app/ChatBot";
 
 function Studentinfo() {
   return (
@@ -118,8 +118,9 @@ function Studentinfo() {
 
         </div>
       </div>
-      <Footer />
-      <Chatbot/>
+       <Footer />
+<Chatbot/>
+       
     </>
   );
 }

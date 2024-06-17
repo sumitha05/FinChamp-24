@@ -10,6 +10,7 @@ import "@/styles/pages/fin.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TradingViewWidget from "@/components/trade-app/tradingView";
+import Chatbot from "../ChatBot";
 
 function MainContainer() {
   const [stocks, setStocks] = useState([]);
@@ -118,7 +119,8 @@ function MainContainer() {
         </div>
       </div>
       </div>
-      <Footer />
+       <Footer />
+<Chatbot/>
     </>
   );
 }

@@ -73,8 +73,9 @@ const MarketNews = () => {
         <MainNews />
 
       </div>
-      <Footer />
-      <Chatbot/>
+       <Footer />
+<Chatbot/>
+       
     </>
   );
 }

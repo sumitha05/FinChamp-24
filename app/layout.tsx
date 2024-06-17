@@ -7,7 +7,6 @@ import { ExitModal } from "@/components/modals/exit-modal";
 import { HeartsModal } from "@/components/modals/hearts-modal";
 import { PracticeModal } from "@/components/modals/practice-modal";
 
-
 const font = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {

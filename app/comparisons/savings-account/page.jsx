@@ -65,7 +65,8 @@ const SavingsAccount = () => {
           ))}
         </div>
       </div>
-      <Footer />
+       <Footer />
+<Chatbot/>
     </>
   
   );

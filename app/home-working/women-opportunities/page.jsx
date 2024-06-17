@@ -103,7 +103,7 @@ function Workinginfo() {
       </div>
     </div>
       <Footer/>
-      <Chatbot/>
+       
     </>
 
   );
