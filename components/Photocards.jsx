@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import "./PhotoCards.css"
 import './PhotoCards.css';
 import img1 from '@/public/assets/Photos/img1.jpg';
 import img2 from '@/public/assets/Photos/img2.jpg';
