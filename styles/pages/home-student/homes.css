@@ -23,6 +23,7 @@
   width: 1000px;
   height: 570px;
   margin-left: 20px;
+  margin-right: -20px;
 }
 
 .home-cards::-webkit-scrollbar {
