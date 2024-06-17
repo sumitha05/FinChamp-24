@@ -20,10 +20,10 @@
   flex-wrap: nowrap; /* Prevent wrapping to new lines */
   overflow-x: auto; /* Enable horizontal scrolling if needed */
   gap: 20px; /* Space between cards */
-  width: 1000px;
+  width: 1100px;
   height: 570px;
   margin-left: 5px;
-  margin-right: -100px;
+  margin-right: -70px;
 }
 
 .home-cards::-webkit-scrollbar {
