@@ -20,7 +20,7 @@
   flex-wrap: nowrap; /* Prevent wrapping to new lines */
   overflow-x: auto; /* Enable horizontal scrolling if needed */
   gap: 20px; /* Space between cards */
-  width: 1200px;
+  width: 1150px;
   height: 570px;
   margin-left: 20px;
   margin-right: -60px;
