@@ -14,6 +14,7 @@ import personalImage from '../../public/assets/pImage.png';
 import carImage from '../../public/assets/carImage.png';
 import brokerImage from '../../public/assets/brokerImage.png';
 import mortgageImage from '../../public/assets/mortgageImage.png';
+import Chatbot from "@/app/ChatBot";
 
 const ComparisionsCards = () => {
   return (

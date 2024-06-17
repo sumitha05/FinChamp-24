@@ -5,7 +5,7 @@ import "@/styles/pages/home-working.css";
 import woman from "@/public/assets/woman.png";
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-import Chatbot from "@/app/chatBot";
+import Chatbot from "@/app/ChatBot";
 
 function Workinginfo() {
   return (
@@ -103,7 +103,7 @@ function Workinginfo() {
       </div>
     </div>
       <Footer/>
-       
+       <Chatbot/>
     </>
 
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Chatbot from "@/app/chatBot";
+import Chatbot from "@/app/ChatBot";
 import personal from "@/public/assets/pImage.png"
 import Navbar from "@/components/Navbar";
 import Footer from '@/components/Footer';
@@ -64,7 +64,7 @@ const Personal = () => {
         ))}
       </div>
       <Footer/>
-       
+       <Chatbot/>
     </>
 
   );

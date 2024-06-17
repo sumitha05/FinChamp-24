@@ -4,6 +4,8 @@ import Image from 'next/image';
 import university from '@/public/assets/university.png';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Chatbot from "@/app/ChatBot";
+
 const courses = [
   {
     id: 1,
@@ -104,6 +106,7 @@ const Courses = () => {
         </div>
       </div>
       <Footer/>
+      <Chatbot/>
       </>
       
     );

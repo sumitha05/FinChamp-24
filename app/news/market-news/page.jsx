@@ -2,11 +2,9 @@ import React from 'react';
 import Link from 'next/link';
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
 import MainNews from '@/components/Photocards'; 
-
 import "@/styles/pages/news.css"
-import Chatbot from "@/app/chatBot";
+import Chatbot from "@/app/ChatBot";
 
 const MarketNews = () => {
 

@@ -1,11 +1,10 @@
 import React from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
-
 import personal from "@/public/assets/pImage.png"
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import "@/styles/pages/home/comparsions/savings-accounts.css"
+import "@/styles/pages/home/comparsions/savings-accounts.css";
+import Chatbot from "@/app/ChatBot";
 
 const SavingsAccount = () => {
   // Example savings account data

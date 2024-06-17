@@ -6,7 +6,7 @@ import Link from 'next/link';
 import "../CreditCards.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Chatbot from "@/app/chatBot";
+import Chatbot from "@/app/ChatBot";
 
 const CashBack = () => {
   // Example credit card data
@@ -74,7 +74,7 @@ const CashBack = () => {
       ))}
     </div>
       <Footer/>
-       
+       <Chatbot/>
     </>
  
   );

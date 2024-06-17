@@ -6,8 +6,7 @@ import Link from 'next/link';
 import "../CreditCards.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Chatbot from "@/app/chatBot";
-
+import Chatbot from "@/app/ChatBot";
 const BestCards = () => {
   // Example credit card data
   const creditCards = [
@@ -65,7 +64,7 @@ const BestCards = () => {
       ))}
     </div>
       <Footer/>
-       
+       <Chatbot/>
     </>
  
   );

@@ -10,6 +10,8 @@ import location_icon from '@/public/assets/location-icon.png';
 import warrow from "@/public/assets/white-arrow.png";
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+
+
 const Contact = () => {
   const [result, setResult] = React.useState("");
 

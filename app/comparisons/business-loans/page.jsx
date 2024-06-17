@@ -4,7 +4,7 @@ import Image from 'next/image';
 import business from "@/public/assets/handshake.png"
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import Chatbot from "@/app/chatBot";
+import Chatbot from "@/app/ChatBot";
 import "@/styles/pages/home/comparsions/business.css"
 
 const Business = () => {

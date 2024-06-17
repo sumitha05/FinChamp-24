@@ -1,11 +1,12 @@
 import React from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
-import Chatbot from "@/app/chatBot";
+import Chatbot from "@/app/ChatBot";
 import plane from "@/public/assets/plane.png"
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import "@/styles/pages/home/comparsions/travel-cards.css"
+import "@/styles/pages/home/comparsions/travel-cards.css";
+
+
 const TravelCards = () => {
   // Example travel card data
   const travelCards = [

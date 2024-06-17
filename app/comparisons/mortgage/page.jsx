@@ -1,10 +1,10 @@
 import React from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
 import money from "@/public/assets/mortgage.png"
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import "@/styles/pages/home/comparsions/mortgage.css"
+import "@/styles/pages/home/comparsions/mortgage.css";
+import Chatbot from "@/app/ChatBot";
 
 const Mortgage = () => {
   // Example mortgage data
@@ -63,6 +63,7 @@ const Mortgage = () => {
         ))}
       </div>
       <Footer/>
+      <Chatbot/>
     </>
 
   );

@@ -1,10 +1,10 @@
 import React from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
 import car from "@/public/assets/car.png"
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import "@/styles/pages/home/comparsions/car-insurance.css"
+import "@/styles/pages/home/comparsions/car-insurance.css";
+import Chatbot from "@/app/ChatBot";
 
 
 const CarInsurance = () => {
