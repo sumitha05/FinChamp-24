@@ -1,9 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import "./PhotoCards.css"
-
 import '@/styles/components/Photocards.css';
-import Image from 'next/image';
 import img1 from '@/public/assets/Photos/img1.jpg';
 import img2 from '@/public/assets/Photos/img2.jpg';
 import img3 from '@/public/assets/Photos/img13.jpg';
