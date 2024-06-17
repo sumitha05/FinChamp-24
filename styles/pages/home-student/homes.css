@@ -1,0 +1,61 @@
+
+
+.first-container
+{
+  display: flex; 
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.home-cards
+{
+ 
+}
+.student-loan
+{
+    height: 220px;
+    background-color: rgb(26, 42, 65, 0.9);
+   color: white;
+  
+    
+}
+.latest-articles
+{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.latest-articles h1
+{
+ text-align: center;
+ font-size: 2.3rem;
+ text-decoration: underline;
+}
+
+
+.ai-assistant {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .ai-assistant:hover {
+    background-color: #0056b3;
+  }
+  
+  .ai-assistant.show {
+    display: block;
+  }
+  
+  .ai-assistant.hide {
+    display: none;
+  }
+  
