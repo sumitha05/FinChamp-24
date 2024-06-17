@@ -12,7 +12,7 @@
   display: flex;
   align-items: center; /* Center align vertically if needed */
   justify-content: center; /* Center align horizontally if needed */
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 .home-cards {
