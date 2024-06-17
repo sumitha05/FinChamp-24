@@ -15,8 +15,6 @@ const HomeStudent = () => {
   return (
     <>
       <Navbar />
-      <div className='content-container'>
-        <div className='page'>
           <div className='first-container'>  
             <StockPriceChecker />   
             <div className="home-cards-container">
@@ -41,8 +39,6 @@ const HomeStudent = () => {
             <h1>Latest Articles</h1>
             <PhotoCards />
           </div>
-        </div>
-      </div>
       <Footer />
       <Chatbot />
        
