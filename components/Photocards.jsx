@@ -1,8 +1,13 @@
 import React from 'react';
+<<<<<<< HEAD
 import Image from 'next/image';
 import "./PhotoCards.css"
 
 // Import images
+=======
+import '@/styles/components/Photocards.css';
+import Image from 'next/image'; 
+>>>>>>> 1742bd2845c4ff8b99bc50aa9f26f3b74eacb4d9
 import img1 from '@/public/assets/Photos/img1.jpg';
 import img2 from '@/public/assets/Photos/img2.jpg';
 import img3 from '@/public/assets/Photos/img13.jpg';
