@@ -18,17 +18,13 @@ const HomeWorking = () => {
     <div>
       <Navbar />
       <div className='first-container'>  
-
-        <StockPriceChecker/>   
-         <div className="home-cards"> {/* Use directly from CSS */}
-      
-        <FinanceTopics />
-      </div>
-  
-
-     
-      </div>  
-        
+            <StockPriceChecker />   
+            <div className="home-cards-container">
+              <div className="home-cards">
+                <FinanceTopics />
+              </div>
+            </div>
+          </div> 
     
       <div className="student-loan"> {/* Use directly from CSS */}
         <LearnMoreCard
