@@ -105,7 +105,7 @@
 }
 
 .portfolio-container {
-  margin-top: 10px;
+  margin-top: 20px;
   width: 450px; /* Adjusted width */
   padding: 20px; /* Adjusted padding */
   margin-left: 20px;
@@ -123,6 +123,7 @@
   background: #fff;
   color: #333;
   border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 .trade-bold {

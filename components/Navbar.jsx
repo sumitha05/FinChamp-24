@@ -11,11 +11,11 @@ import {
   UserButton
 } from "@clerk/nextjs";
 import { Loader } from "lucide-react";
-
 import logo from "@/public/assets/logo.png";
 import useri from "@/public/assets/user.svg";
 import "@/styles/components/Navbar.css";
 import { Button } from './ui/button';
+
 
 const Navbar = ({ user = {} }) => {
   const router = useRouter(); // Initialize useRouter hook

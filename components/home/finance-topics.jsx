@@ -15,42 +15,42 @@ const Topics = [
   {
     topic: "Stocks",
     imageUrl: stock,
-    url: "/courses",
+    url: "/stocks",
   },
   {
     topic: "Loans",
     imageUrl: loan,
-    url: "/courses",
+    url: "/loans",
   },
   {
     topic: "Investment",
     imageUrl: investment,
-    url: "/courses",
+    url: "/investment",
   },
   {
     topic: "Insurance",
     imageUrl: insurance,
-    url: "/courses",
+    url: "/insurance",
   },
   {
     topic: "Bank",
     imageUrl: bank,
-    url: "/courses",
+    url: "/bank",
   },
   {
     topic: "Finance",
     imageUrl: personal,
-    url: "/courses",
+    url: "/finance",
+  },
+  {
+    topic: "Retirement",
+    imageUrl: retirement,
+    url: "/retirement",
   },
   {
     topic: "Comparsions",
     imageUrl: comparsion,
     url: "/comparisons",
-  },
-  {
-    topic: "Retirement",
-    imageUrl: retirement,
-    url: "/courses",
   },
 ];
 
