@@ -34,7 +34,7 @@ export default function RootLayout({
         <PracticeModal/>
         {children}
         </body>
-    </html>
+      </html>
     </ClerkProvider>
   );
 }

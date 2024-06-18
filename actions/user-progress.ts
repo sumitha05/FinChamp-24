@@ -133,5 +133,4 @@ export const refillHearts = async () => {
     revalidatePath("/shop");
     revalidatePath("/learn");
     revalidatePath("/leaderboard");
-    // revalidatePath("/quests");
 };

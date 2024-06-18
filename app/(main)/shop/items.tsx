@@ -20,9 +20,9 @@ export const Items = ({
     const [pending, startTransition] = useTransition();
 
     const onRefillHearts = () => {
-        if (pending || hearts === 10 || points < POINTS_TO_REFILL) {
-            return;
-        }
+        // if (pending || hearts === 10 || points < POINTS_TO_REFILL) {
+        //     return;
+        // }
 
         startTransition(() => {
             refillHearts()
@@ -48,7 +48,7 @@ export const Items = ({
                 onClick={onRefillHearts}
                 disabled={pending || hearts === 10 || points < POINTS_TO_REFILL}
                 >
-                    {hearts === 5
+                    {hearts === 10
                     ? "full"
                     : (
                         <div className="flex items-center">
