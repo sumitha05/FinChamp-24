@@ -46,7 +46,7 @@ export const Items = ({
                 </div>
                 <Button
                 onClick={onRefillHearts}
-                    disabled={pending || hearts === 10 || points < POINTS_TO_REFILL}
+                disabled={pending || hearts === 10 || points < POINTS_TO_REFILL}
                 >
                     {hearts === 5
                     ? "full"
