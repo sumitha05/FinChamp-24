@@ -18,7 +18,7 @@ const Stocks = () => {
         </div>
         <div className="content">
         <p>
-            Investing is a key component of building wealth and achieving financial security. It involves allocating money to assets with the expectation of generating a return or profit over time. Whether you're saving for retirement, a home, or simply to grow your wealth, understanding the basics of investing is crucial.
+            Investing is a key component of building wealth and achieving financial security. It involves allocating money to assets with the expectation of generating a return or profit over time. Whether you&aposre saving for retirement, a home, or simply to grow your wealth, understanding the basics of investing is crucial.
           </p>
           <h2>What Is Investing?</h2>
           <p>

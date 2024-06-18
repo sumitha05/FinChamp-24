@@ -22,11 +22,11 @@ const Stocks = () => {
           </p>
           <h2>What Are Stocks?</h2>
           <p>
-            Stocks are financial instruments that signify ownership in a corporation and represent a claim on part of the corporation's assets and earnings. There are two main types of stocks:
+            Stocks are financial instruments that signify ownership in a corporation and represent a claim on part of the corporation&aposs assets and earnings. There are two main types of stocks:
           </p>
           <ul>
             <li>
-              <strong>Common Stock:</strong> This type of stock entitles the owner to vote at shareholders' meetings and to receive dividends. Common shareholders are last in line to be compensated if the company goes bankrupt.
+              <strong>Common Stock:</strong> This type of stock entitles the owner to vote at shareholders&apos meetings and to receive dividends. Common shareholders are last in line to be compensated if the company goes bankrupt.
             </li>
             <li>
               <strong>Preferred Stock:</strong> Preferred shareholders generally do not have voting rights but have a higher claim on assets and earnings than the common shareholders. Dividends for preferred stocks are typically higher and are paid before any dividends to common shareholders.
@@ -38,12 +38,12 @@ const Stocks = () => {
             <li>
               <strong>Stocks</strong><br/>
               <strong>Ownership:</strong> When you buy a stock, you become a partial owner of the company. This ownership is represented by shares.<br/>
-              <strong>Profit:</strong> Your potential profit comes from an increase in the stock's price (capital gains) and possibly dividends, which are a share of the company's profits paid to shareholders.<br/>
-              <strong>Risk:</strong> Stocks are generally riskier because their value can fluctuate widely based on the company’s performance and market conditions. If the company does well, the stock price can increase significantly, but if the company performs poorly, the stock price can drop.<br/><br/>
+              <strong>Profit:</strong> Your potential profit comes from an increase in the stock&aposs price (capital gains) and possibly dividends, which are a share of the company&aposs profits paid to shareholders.<br/>
+              <strong>Risk:</strong> Stocks are generally riskier because their value can fluctuate widely based on the company&aposs performance and market conditions. If the company does well, the stock price can increase significantly, but if the company performs poorly, the stock price can drop.<br/><br/>
 
               <strong>Bonds</strong><br/>
               <strong>Lending:</strong> When you buy a bond, you are essentially lending money to the issuer (a company or government). In return, the issuer promises to pay back the loan with interest over a specified period.<br/>
-              <strong>Profit:</strong> Your profit comes from the interest payments, known as coupon payments, made by the issuer, and the return of the bond's face value when it matures.<br/>
+              <strong>Profit:</strong> Your profit comes from the interest payments, known as coupon payments, made by the issuer, and the return of the bond&aposs face value when it matures.<br/>
               <strong>Risk:</strong> Bonds are generally considered safer than stocks because they provide regular interest payments and the return of principal at maturity. However, they still carry some risk, such as the issuer defaulting on payments or changes in interest rates affecting bond prices.<br/><br/>
               <strong>Key Differences</strong><br/>
               <strong>1. Nature of Investment:</strong><br/>
@@ -59,7 +59,7 @@ const Stocks = () => {
           </ul>
           <h2>How Do Stocks Work?</h2>
           <p>
-            When you buy a stock, you become a shareholder in the company. The value of a stock can fluctuate based on the company's performance, the economy, and other factors. Investors buy stocks with the hope that the price will rise over time, allowing them to sell the stock at a profit. Additionally, some stocks pay dividends, which provide a regular income to shareholders.
+            When you buy a stock, you become a shareholder in the company. The value of a stock can fluctuate based on the company&aposs performance, the economy, and other factors. Investors buy stocks with the hope that the price will rise over time, allowing them to sell the stock at a profit. Additionally, some stocks pay dividends, which provide a regular income to shareholders.
           </p>
           <h2>Why Invest in Stocks?</h2>
           <p>Investing in stocks can be beneficial for several reasons:</p>
@@ -71,7 +71,7 @@ const Stocks = () => {
               <strong>Income Through Dividends:</strong> Many companies pay dividends to their shareholders, providing a steady income stream.
             </li>
             <li>
-              <strong>Ownership in a Company:</strong> Owning stock means you have a stake in the company's future and can vote on important company matters.
+              <strong>Ownership in a Company:</strong> Owning stock means you have a stake in the company&aposs future and can vote on important company matters.
             </li>
           </ul>
           <h2>Risks of Investing in Stocks</h2>

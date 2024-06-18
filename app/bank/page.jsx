@@ -22,7 +22,7 @@ const Banking = () => {
           </p>
           <h2>What Are Banks?</h2>
           <p>
-            Banks are financial institutions that accept deposits from the public, create credit, and provide loans. They operate under various regulatory frameworks to ensure their stability and the protection of depositors' funds. There are several types of banks, including:
+            Banks are financial institutions that accept deposits from the public, create credit, and provide loans. They operate under various regulatory frameworks to ensure their stability and the protection of depositors&apos funds. There are several types of banks, including:
           </p>
           <ul>
             <li><strong>Commercial Banks:</strong> These banks provide a range of services including accepting deposits, providing business and personal loans, and offering basic investment products.</li>
