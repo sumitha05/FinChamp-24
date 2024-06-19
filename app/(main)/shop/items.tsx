@@ -20,13 +20,13 @@ export const Items = ({
     const [pending, startTransition] = useTransition();
 
     const onRefillHearts = () => {
-        // if (pending || hearts === 10 || points < POINTS_TO_REFILL) {
+        // if (hearts === 10 || points < POINTS_TO_REFILL) {
         //     return;
         // }
 
         startTransition(() => {
             refillHearts()
-            .catch(() => toast.error("Something went wrong"))
+            .catch(() => toast.error("Not enough XP or Hearts are full"))
         });
     };
 
@@ -46,7 +46,7 @@ export const Items = ({
                 </div>
                 <Button
                 onClick={onRefillHearts}
-                disabled={pending || hearts === 10 || points < POINTS_TO_REFILL}
+                
                 >
                     {hearts === 10
                     ? "full"
