@@ -202,7 +202,7 @@ export const Quiz = ({
     }
 
     const title = challenge.type === "ASSIST"
-        ? "Select Got it to next"
+        ? "Select Got it to go next"
         : challenge.question;
 
     return (
