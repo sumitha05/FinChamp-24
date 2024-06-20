@@ -4,6 +4,7 @@ import { neon } from "@neondatabase/serverless";
 
 import * as schema from "../db/schema";
 import { Flag } from "lucide-react";
+import { truncate } from "fs/promises";
 
 const sql = neon(process.env.DATABASE_URL!);
 const db = drizzle(sql, { schema });
@@ -224,8 +225,27 @@ const main = async () => {
                 {id: 101, lessonId: 39, type: "SELECT", order: 101, question: "Which is an example of a SMART financial goal?"},
                 {id: 102, lessonId: 40, type: "ASSIST", order: 102, question: "Short-Term Goals: Achievable within a year, such as buying a new phone or saving for a trip. Low-risk, focusing on budgeting and saving in accessible accounts. Medium-Term Goals: Achievable in one to five years, like buying a car or saving for college. Moderate-risk, involving planning and investment in diversified options. Long-Term Goals: Achievable in more than five years, such as buying a house or saving for retirement. High-risk, requiring income projection and investment in growth-oriented assets"},
                 {id: 103, lessonId: 40, type: "SELECT", order: 104, question: "You want to save money for your mom's birthday gift. Identify the goal as a short, medium, or long term goal."},
+                {id: 105, lessonId: 44, type: "ASSIST", order: 105, question: "Insurance Terminology : Premium: Payment for coverage. Deductible: Out-of-pocket amount before coverage. Co-pay: Fixed fee per covered service. Policy Limit: Maximum claim payout. Claim: Request for coverage of a loss. Benefit: Payment upon successful claim."},
+                {id: 106, lessonId: 44, type: "ASSIST", order: 106, question: "Example of Insurance Terms in Use: For instance, in a health insurance policy with a deductible of $500, if someone undergoes a surgery costing $5,000, they would need to pay the initial $500 out of pocket before the insurance covers the remaining $4,500 of the medical expenses."},
+                {id: 107, lessonId: 44, type: "SELECT", order: 107, question: "In insurance, what does the term deductible refer to?"},
+                {id: 108, lessonId: 45, type: "ASSIST", order: 108, question: "Insurance companies use math, specifically probability and statistics, to figure out how likely it is that someone will have a loss that they need to help pay for. They look at information about a person, like their age, where they live, and other factors, to estimate how likely it is that they'll experience a covered loss. Then, they use this information to set the premium price. The higher the risk, the higher the premium."},
+                {id: 109, lessonId: 45, type: "SELECT", order: 109, question: "How do insurance companies determine the price of premiums?"},
+                {id: 110, lessonId: 46, type: "ASSIST", order: 110, question: "In an insurance transaction, key players include: Insured: You, the purchaser of the insurance policy. Insurer: The company selling the policy and responsible for covering losses. Agent: Assists in purchasing insurance, representing the insurer or working independently. Underwriter: Determines the risk the insurer will accept and sets the premium price."},
+                {id: 111, lessonId: 46, type: "SELECT", order: 111, question: "Who at an insurance company decides how much risk they are willing to accept and sets the premium price?"},
+                {id: 112, lessonId: 47, type: "ASSIST", order: 112, question: "Why do we need health insurance? Imagine you suddenly get sick and need to see a doctor. Without health insurance, you might have to pay hundreds or even thousands of dollars for your visit and any tests or treatments you need. But with health insurance, you pay a smaller amount, called a premium, every month, and the insurance company helps cover the rest of the cost. This way, you don't have to worry about large medical bills, and you can focus on getting better."},
+                {id: 113, lessonId: 47, type: "SELECT", order: 113, question: "Why is health insurance important?"},
 
 
+
+                // {id: 104, lessonId: 24, type: "SELECT", order: 78, question: "What does APR (Annual Percentage Rate) include?"},
+                // {id: 104, lessonId: 24, type: "SELECT", order: 78, question: "What does APR (Annual Percentage Rate) include?"},
+                // {id: 104, lessonId: 24, type: "SELECT", order: 78, question: "What does APR (Annual Percentage Rate) include?"},
+                // {id: 104, lessonId: 24, type: "SELECT", order: 78, question: "What does APR (Annual Percentage Rate) include?"},
+                // {id: 104, lessonId: 24, type: "SELECT", order: 78, question: "What does APR (Annual Percentage Rate) include?"},
+                // {id: 104, lessonId: 24, type: "SELECT", order: 78, question: "What does APR (Annual Percentage Rate) include?"},
+                // {id: 104, lessonId: 24, type: "SELECT", order: 78, question: "What does APR (Annual Percentage Rate) include?"},
+                // {id: 104, lessonId: 24, type: "SELECT", order: 78, question: "What does APR (Annual Percentage Rate) include?"},
+                // {id: 104, lessonId: 24, type: "SELECT", order: 78, question: "What does APR (Annual Percentage Rate) include?"},
                 // {id: 104, lessonId: 24, type: "SELECT", order: 78, question: "What does APR (Annual Percentage Rate) include?"},
         ]);
 
@@ -535,8 +555,36 @@ const main = async () => {
                 {id: 302, challengeId: 104, correct: false, text: "Long term goal"},
                 {id: 303, challengeId: 104, correct: true, text: "Short term goal"},
                 {id: 304, challengeId: 104, correct: false, text: "None"},
+                {id: 305, challengeId: 105, correct: false, text: "Read aloud", audioSrc: "/ins1.mp3"},
+                {id: 306, challengeId: 105, correct: true, text: "Got it"},
+                {id: 307, challengeId: 106, correct: false, text: "Read aloud", audioSrc: "/ins2.mp3"},
+                {id: 308, challengeId: 106, correct: true, text: "Got it"},
+                {id: 309, challengeId: 107, correct: false, text: "The amount paid annually to the insurance company"},
+                {id: 310, challengeId: 107, correct: false, text: "The fixed fee paid for each covered service"},
+                {id: 311, challengeId: 107, correct: false, text: "The maximum payout limit for a claim"},
+                {id: 312, challengeId: 107, correct: truncate, text: "The initial out-of-pocket amount before insurance coverage starts"},
+                {id: 313, challengeId: 108, correct: false, text: "Read aloud", audioSrc: "/ins3.mp3"},
+                {id: 314, challengeId: 108, correct: true, text: "Got it"},
+                {id: 315, challengeId: 109, correct: false, text: "By calculating the maximum payout for a claim"},
+                {id: 316, challengeId: 109, correct: false, text: "By estimating the likelihood of a covered loss based on factors like age and location"},
+                {id: 317, challengeId: 109, correct: true, text: "By setting a fixed fee for each covered service"},
+                {id: 318, challengeId: 109, correct: false, text: "By determining the initial out-of-pocket amount before coverage starts"},
+                {id: 319, challengeId: 110, correct: false, text: "Read aloud", audioSrc: "/ins4.mp3"},
+                {id: 320, challengeId: 110, correct: true, text: "Got it"},
+                {id: 321, challengeId: 111, correct: true, text: "The underwriter"},
+                {id: 322, challengeId: 111, correct: false, text: "The insured"},
+                {id: 323, challengeId: 111, correct: false, text: "The insurer"},
+                {id: 324, challengeId: 111, correct: false, text: "The agent"},
+                {id: 325, challengeId: 112, correct: false, text: "Read aloud", audioSrc: "/ins5.mp3"},
+                {id: 326, challengeId: 112, correct: true, text: "Got it"},
+                {id: 327, challengeId: 113, correct: false, text: "To avoid paying premiums"},
+                {id: 328, challengeId: 113, correct: false, text: "To receive free medical care"},
+                {id: 329, challengeId: 113, correct: true, text: "To help cover the cost of medical expenses"},
+                {id: 330, challengeId: 113, correct: false, text: "To choose specific doctors for treatment"},
 
 
+                // {id: 159, challengeId: 56, correct: true, text: "Rent"},
+                // {id: 160, challengeId: 56, correct: false, text: "Utility bills"},
                 // {id: 159, challengeId: 56, correct: true, text: "Rent"},
                 // {id: 160, challengeId: 56, correct: false, text: "Utility bills"},
                 // {id: 157, challengeId: 56, correct: false, text: "Groceries"},
