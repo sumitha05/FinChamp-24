@@ -181,7 +181,7 @@ const main = async () => {
                 {id: 57, lessonId: 16, type: "ASSIST", order: 57, question: "The 50/30/20 rule is a straightforward budgeting strategy that divides your after-tax income into three categories: 50% for needs, 30% for wants, and 20% for savings and debt repayment."},
                 {id: 58, lessonId: 16, type: "ASSIST", order: 58, question: "Needs include essential expenses like housing, utilities, and groceries. Wants cover discretionary spending on things like dining out and entertainment. Savings and debt repayment focus on financial goals such as building an emergency fund, investing, and paying off debts. ."},
                 {id: 59, lessonId: 16, type: "ASSIST", order: 59, question: "This rule helps ensure a balanced approach to managing finances, promoting financial stability, and preparing for future needs"},
-                {id: 60, lessonId: 17, type: "SELECT", order: 60, question: "What does owning a stock represent?"},
+                {id: 60, lessonId: 17, type: "SELECT", order: 60, question: "What is the 50/30/20 rule in budgeting?"},
                 {id: 61, lessonId: 17, type: "SELECT", order: 61, question: "Which category includes expenses like dining out and entertainment?"},
                 {id: 62, lessonId: 17, type: "SELECT", order: 62, question: "What are examples of needs according to the 50/30/20 rule?"},
                 {id: 63, lessonId: 18, type: "SELECT", order: 63, question: "What financial goals are included in the 20% allocation for savings and debt repayment?"},
