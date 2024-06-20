@@ -392,7 +392,7 @@ const main = async () => {
                 {id: 143, challengeId: 52, correct: false, text: "A fixed interest payment from a company."},
                 {id: 144, challengeId: 52, correct: false, text: "A bond issued by a company."},
                 {id: 145, challengeId: 53, correct: false, text: "They represent ownership in a company."},
-                {id: 146, challengeId: 53, correct: false, text: "They provide periodic interest payments and return of principal at maturity."},
+                {id: 146, challengeId: 53, correct: false, text: "They provide periodic interest payments and no return of principal at maturity."},
                 {id: 147, challengeId: 53, correct: false, text: "They fluctuate in value based on company performance."},
                 {id: 148, challengeId: 53, correct: true, text: "They provide periodic interest payments and return of principal at maturity."},
                 {id: 149, challengeId: 54, correct: false, text: "Stocks"},
