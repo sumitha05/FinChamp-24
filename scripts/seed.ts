@@ -217,12 +217,16 @@ const main = async () => {
                 {id: 94, lessonId: 34, type: "SELECT", order: 94, question: "Which aspect of financial regulations focuses on protecting consumer rights and ensuring fair treatment in banking transactions?"},
                 {id: 95, lessonId: 35, type: "ASSIST", order: 95, question: "Importance of Credit Scores in Banking. Understanding Credit Scores: Credit scores play a crucial role in banking and financial decisions, influencing loan approvals, interest rates, and credit card offers. Maintaining a good credit score is essential for accessing favorable financial products and terms."},
                 {id: 96, lessonId: 35, type: "SELECT", order: 96, question: "A higher credit score typically results in lower interest rates on loans and credit cards."},
+                {id: 97, lessonId: 38, type: "ASSIST", order: 97, question: "To write SMART financial goals: Specific: Clearly define what you want to achieve, like saving for an emergency fund. Measurable: Set clear criteria to track progress, such as saving a specific amount regularly. Achievable: Ensure the goal is realistic based on your current financial situation. Relevant: Align the goal with your financial priorities and needs. Time-bound: Set a deadline to achieve the goal, creating accountability and urgency."},
+                {id: 98, lessonId: 38, type: "SELECT", order: 98, question: "What does the R in SMART financial goals stand for?"},
+                {id: 99, lessonId: 39, type: "ASSIST", order: 99, question: "SMART Financial Goals Examples: Emergency Fund:SMART Goal: Save $3,000 for an emergency fund by setting aside $150 from each biweekly paycheck for 10 weeks, aiming to prepare for unexpected expenses and avoid debt. Paying Off Debt: SMART Goal: Pay off $5,000 credit card debt by increasing monthly payments by $250 for 20 months, aiming to save on interest and improve credit score."},
+                {id: 100, lessonId: 39, type: "ASSIST", order: 100, question: "Buying a Car: SMART Goal: Purchase a $15,000 used car by saving $500 from each monthly paycheck for 30 months, aiming for increased independence. Saving for Retirement: SMART Goal: Save $500,000 for retirement by contributing 10% of income to a 401(k) plan for 25 years, aiming for a comfortable and secure post-work lifestyle."},
+                {id: 101, lessonId: 39, type: "SELECT", order: 101, question: "Which is an example of a SMART financial goal?"},
+                {id: 102, lessonId: 40, type: "ASSIST", order: 102, question: "Short-Term Goals: Achievable within a year, such as buying a new phone or saving for a trip. Low-risk, focusing on budgeting and saving in accessible accounts. Medium-Term Goals: Achievable in one to five years, like buying a car or saving for college. Moderate-risk, involving planning and investment in diversified options. Long-Term Goals: Achievable in more than five years, such as buying a house or saving for retirement. High-risk, requiring income projection and investment in growth-oriented assets"},
+                {id: 103, lessonId: 40, type: "SELECT", order: 104, question: "You want to save money for your mom's birthday gift. Identify the goal as a short, medium, or long term goal."},
 
 
-                // {id: 78, lessonId: 24, type: "SELECT", order: 78, question: "What does APR (Annual Percentage Rate) include?"},
-                // {id: 76, lessonId: 24, type: "SELECT", order: 76, question: "What is the term in a loan agreement?"},
-                // {id: 77, lessonId: 24, type: "SELECT", order: 77, question: "What is collateral in the context of a loan?"},
-                // {id: 78, lessonId: 24, type: "SELECT", order: 78, question: "What does APR (Annual Percentage Rate) include?"},
+                // {id: 104, lessonId: 24, type: "SELECT", order: 78, question: "What does APR (Annual Percentage Rate) include?"},
         ]);
 
         // challenge options
@@ -511,11 +515,30 @@ const main = async () => {
                 {id: 282, challengeId: 95, correct: true, text: "Got it"},
                 {id: 283, challengeId: 96, correct: true, text: "False"},
                 {id: 284, challengeId: 96, correct: false, text: "True"},
+                {id: 285, challengeId: 97, correct: false, text: "Read aloud", audioSrc: "/fin3.mp3"},
+                {id: 286, challengeId: 97, correct: true, text: "Got it"},
+                {id: 287, challengeId: 98, correct: false, text: "Reliable"},
+                {id: 288, challengeId: 98, correct: true, text: "Relevant"},
+                {id: 289, challengeId: 98, correct: false, text: "Rapid"},
+                {id: 290, challengeId: 98, correct: false, text: "Resourceful"},
+                {id: 291, challengeId: 99, correct: false, text: "Read aloud", audioSrc: "/fin4.mp3"},
+                {id: 292, challengeId: 99, correct: true, text: "Got it"},
+                {id: 293, challengeId: 100, correct: false, text: "Read aloud", audioSrc: "/fin5.mp3"},
+                {id: 294, challengeId: 100, correct: true, text: "Got it"},
+                {id: 295, challengeId: 101, correct: false, text: "I want to save some money for emergencies."},
+                {id: 296, challengeId: 101, correct: false, text: "I want to save enough money to buy a car someday."},
+                {id: 297, challengeId: 101, correct: false, text: "I want to save money for a vacation sometime in the future."},
+                {id: 298, challengeId: 101, correct: true, text: "I want to save $3,000 for an emergency fund by setting aside $150 from each biweekly paycheck for 10 weeks"},
+                {id: 299, challengeId: 102, correct: false, text: "Read aloud", audioSrc: "/fin6.mp3"},
+                {id: 300, challengeId: 102, correct: true, text: "Got it"},
+                {id: 301, challengeId: 104, correct: false, text: "Medium term goal"},
+                {id: 302, challengeId: 104, correct: false, text: "Long term goal"},
+                {id: 303, challengeId: 104, correct: true, text: "Short term goal"},
+                {id: 304, challengeId: 104, correct: false, text: "None"},
+
 
                 // {id: 159, challengeId: 56, correct: true, text: "Rent"},
                 // {id: 160, challengeId: 56, correct: false, text: "Utility bills"},
-
-
                 // {id: 157, challengeId: 56, correct: false, text: "Groceries"},
                 // {id: 158, challengeId: 56, correct: false, text: "Entertainment"},
                 // {id: 159, challengeId: 56, correct: true, text: "Rent"},
