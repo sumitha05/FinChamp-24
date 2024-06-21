@@ -19,6 +19,15 @@ const Chatbot = () => {
             hostUrl: 'https://cdn.botpress.cloud/webchat/v1',
             messagingUrl: 'https://messaging.botpress.cloud',
             clientId: 'af054bfe-65de-4ab1-95bd-94f3a2a40abc',
+            webhookId: "c1184ffa-4f33-4b5d-b911-0a50a55775a7",
+            lazySocket: true,
+            themeName: "prism",
+            botName: "Finzzy",
+            frontendVersion: "v1",
+            useSessionStorage: true,
+            theme: "prism",
+            themeColor: "#2563eb",
+            allowedOrigins: []
           });
         }
       };
