@@ -86,6 +86,7 @@ Here are some screenshots of our FinChamp website:
   <img src="AI-ChatBot.png" alt="Logo" width="800" height="500">
   <img src="Credit-Cards.png" alt="Logo" width="800" height="500">
 </p>
+<br/>
 
 <h2 id="contributers">Contributors</h2>
 
