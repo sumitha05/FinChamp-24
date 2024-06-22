@@ -84,8 +84,8 @@ Here are some screenshots of our DigiRupi App:
 
 <div align="center">
   <strong>
-    <a href="https://github.com/anushthaPrakash">Anushtha Prakash</a> &emsp;
-    <a href="https://github.com/tanishadaharwal">Tanisha Daharwal</a> &emsp;
-    <a href="https://github.com/SiddhiApraj7">Siddhi Apraj</a> &emsp;
+    <a href="https://github.com/Varshini2005">Varshini Gopi</a> &emsp;
+    <a href="https://github.com/sumitha05">Sumitha S</a> &emsp;
+    <a href="https://github.com/MEGHNAKORIM">Meghana Korimi</a> &emsp;
   </strong>
 </div>
