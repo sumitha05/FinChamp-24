@@ -75,20 +75,20 @@ Here are some screenshots of our FinChamp website:
 
    <p align="center">
   <img src="./public/landing.png" alt="Logo" width="800" height="500">
-  <img src="signup.png" alt="Logo" width="800" height="500">
-  <img src="Home-Page-Student.png" alt="Logo" width="800" height="500">
+  <img src="./public/signup.png" alt="Logo" width="800" height="500">
+  <img src="./public/Home-Page-Student.png" alt="Logo" width="800" height="500">
 </p>
 
 <p align="center">
-  <img src="courses.png" alt="Logo" width="800" height="500">
-  <img src="stocks.png" alt="Logo" width="800" height="500">
-  <img src="quiz2.png" alt="Logo" width="800" height="500">
+  <img src="./public/courses.png" alt="Logo" width="800" height="500">
+  <img src="./public/stocks.png" alt="Logo" width="800" height="500">
+  <img src="./public/quiz2.png" alt="Logo" width="800" height="500">
 </p>
 
 <p align="center">
-  <img src="finish.png" alt="Logo" width="800" height="500">
-  <img src="AI-ChatBot.png" alt="Logo" width="800" height="500">
-  <img src="Credit-Cards.png" alt="Logo" width="800" height="500">
+  <img src="./public/finish.png" alt="Logo" width="800" height="500">
+  <img src="./public/AI-ChatBot.png" alt="Logo" width="800" height="500">
+  <img src="./public/Credit-Cards.png" alt="Logo" width="800" height="500">
 </p>
 <br/>
 
