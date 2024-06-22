@@ -60,8 +60,12 @@ To run the Digital Wallet App, ensure that your development environment meets th
   </code></pre>
 - Navigate to the /src directory of your project.
 - Create a new file named .env.
-- Open the .env file and paste the following content into it:
-
+- Go to Neon and create database url and save under the name DATABASE_URL in the .env file.
+- Go to Clerk and create public sharable key and secret key and save under the names NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY and CLERK_SECRET_KEY resp. in the .env file.
+- Run the following command to run the app in your local system:
+  <pre><code>
+   npm run dev
+  </code></pre>
 
 
 
