@@ -77,14 +77,14 @@ Here are some screenshots of our DigiRupi App:
 
 <p align="center">
   <img src="courses.png" alt="Logo" width="800" height="500">
+  <img src="stocks.png" alt="Logo" width="800" height="500">
   <img src="quiz2.png" alt="Logo" width="800" height="500">
-  <img src="quiz3.png" alt="Logo" width="800" height="500">
 </p>
 
 <p align="center">
   <img src="finish.png" alt="Logo" width="800" height="500">
-  <img src="quiz2.png" alt="Logo" width="800" height="500">
-  <img src="quiz3.png" alt="Logo" width="800" height="500">
+  <img src="AI-ChatBot.png" alt="Logo" width="800" height="500">
+  <img src="Credit-Cards.png" alt="Logo" width="800" height="500">
 </p>
 
 <h2 id="contributers">Contributors</h2>
