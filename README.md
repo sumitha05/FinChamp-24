@@ -74,7 +74,7 @@ To run the Digital Wallet App, ensure that your development environment meets th
 Here are some screenshots of our FinChamp website:
 
    <p align="center">
-  <img src="landing.png" alt="Logo" width="800" height="500">
+  <img src="./public/landing.png" alt="Logo" width="800" height="500">
   <img src="signup.png" alt="Logo" width="800" height="500">
   <img src="Home-Page-Student.png" alt="Logo" width="800" height="500">
 </p>
