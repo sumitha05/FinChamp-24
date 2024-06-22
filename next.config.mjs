@@ -25,7 +25,12 @@ const nextConfig = {
                 ]
             }
         ]
-    }
+    },
+
+    i18n: {
+        locales: ['en', 'hi', 'ml', 'te'],
+        defaultLocale: 'en',
+    },
 };
 
 export default withNextVideo(nextConfig);

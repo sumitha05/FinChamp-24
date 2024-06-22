@@ -3,7 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import "@/styles/pages/home-working.css";
 import woman from "@/public/assets/woman.png";
-import Navbar from '@/components/Navbar';
+import Navbar from './Navbar';
 import Footer from '@/components/Footer';
 import Chatbot from "@/app/ChatBot";
 

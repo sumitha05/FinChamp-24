@@ -1,7 +1,7 @@
 // RetirementPage.jsx
 import React from 'react';
 import Image from 'next/image';
-import Navbar from '@/components/Navbar';
+import Navbar from './Navbar';
 import Footer from '@/components/Footer';
 import "@/styles/pages/home-retiree.css"
 import retire from "@/public/assets/retirement1.png";

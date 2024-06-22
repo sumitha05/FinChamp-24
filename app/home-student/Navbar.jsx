@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/navigation'; // Import useRouter hook
-import Modal from './Modal';
+import Modal from '@/components/Modal';
 import {
   ClerkLoading,
   ClerkLoaded,
@@ -13,97 +13,20 @@ import {
 import { Loader } from "lucide-react";
 import logo from "@/public/assets/logo.png";
 import "@/styles/components/Navbar.css";
-import { Button } from './ui/button';
+import { Button } from '@/components/ui/button';
 
 
 const Navbar = ({ user = {} }) => {
   const router = useRouter(); // Initialize useRouter hook
 
   const [showNavbar, setShowNavbar] = useState(false);
-  const [isProfileModalOpen, setIsProfileModalOpen] = useState(false);
-  const [selectedCategory, setSelectedCategory] = useState(user.category || '');
-  const [selectedLang, setSelectedLang] = useState(user.lang || '');
-  const [isLangModalOpen, setIsLangModalOpen] = useState(false);
+  
 
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
   };
 
-  const handleProfileModal = () => {
-    setIsProfileModalOpen(!isProfileModalOpen);
-  };
-
-  const handleLangModal = () => {
-    setIsLangModalOpen(!isLangModalOpen);
-  };
-
-  const handleLogout = () => {
-    console.log('Logout clicked');
-  };
-
-  const handleCategoryChange = (event) => {
-    const category = event.target.value;
-    setSelectedCategory(category);
-
-   
-    if (category === 'student') {
-      router.push('/home-student');
-    } else if (category === 'professional') {
-      router.push('/home-working');
-    } else if (category === 'retiree') {
-      router.push('/home-retiree');
-    }
-
-    setIsProfileModalOpen(false);
-  };
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const category = selectedCategory;
-
-    if (category === 'student') {
-      router.push('/home-student');
-    } else if (category === 'professional') {
-      router.push('/home-working');
-    } else if (category === 'retiree') {
-      router.push('/home-retiree');
-    }
-
-    setIsProfileModalOpen(false);
-  };
-
-  //lang
-  const handleLangChange = (event) => {
-    let lang = event.target.value;
-    setSelectedLang(lang);
-    
-
-   
-    if (lang === 'English') {
-      router.push('/home-retiree');
-    } else if (lang === 'Telugu') {
-      router.push('/home-retiree-te');
-    }
-
-    event.preventDefault();
-    lang = selectedLang;
-
-    setIsLangModalOpen(false);
-    
-  };
-
-  const handlesubmit = (event) => {
-    event.preventDefault();
-    const lang = selectedLang;
-
-    if (lang === 'English') {
-      router.push('/home-retiree');
-    } else if (lang === 'Telugu') {
-      router.push('/home-retiree-te');
-    }
-
-    setIsLangModalOpen(false);
-  };
+  
 
   return (
     <nav className="navbar">
@@ -138,8 +61,8 @@ const Navbar = ({ user = {} }) => {
         <div class="dropdown">
           <Button class="dropbtn" variant="dropdown">Language</Button>
           <div class="dropdown-content">
-            <a href="#">English</a>
-            <a href="-te">తెలుగు</a>
+            <a href="home-student">English</a>
+            <a href="home-student-te">తెలుగు</a>
           </div>
         </div>
         </div>

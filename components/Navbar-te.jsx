@@ -110,17 +110,17 @@ const Navbar = ({ user = {} }) => {
       <div className="container">
         <div className="logos">
           <Image src={logo} alt="FinChamp Logo" width={50} height={50}/>
-          <span className="logo-text">FinChamp</span>
+          <span className="logo-text">ఫిన్‌చాంప్</span>
         </div>
         <div className={`nav-elements ${showNavbar && 'active'}`}>
           <ul>
            <div className='hover'>
-           <Button href="/home-student" variant="dropdown" onClick={() => router.push("/home-student")}>Home</Button>
-            <Button href='/learn' variant="dropdown" onClick={() => router.push("/courses")}>Learn</Button>
-            <Button href='/uni-courses' variant="dropdown" onClick={() => router.push("/uni-courses")}>Courses</Button>
-            <Button href='/news' variant="dropdown" onClick={() => router.push("/news")}>News</Button>
-            <Button href='/trade' variant="dropdown" onClick={() => router.push("/trade")}>Trade</Button>
-            <Button href='/contact-us' variant="dropdown" onClick={() => router.push("/contact-us")}>Contact Us</Button>
+           <Button href="/home-student" variant="dropdown" onClick={() => router.push("/home-student")}>హోమ్</Button>
+            <Button href='/learn' variant="dropdown" onClick={() => router.push("/courses")}>నేర్చుకో</Button>
+            <Button href='/uni-courses' variant="dropdown" onClick={() => router.push("/uni-courses")}>కోర్సులు</Button>
+            <Button href='/news' variant="dropdown" onClick={() => router.push("/news")}>వార్తలు</Button>
+            <Button href='/trade' variant="dropdown" onClick={() => router.push("/trade")}>వాణిజ్యం</Button>
+            <Button href='/contact-us' variant="dropdown" onClick={() => router.push("/contact-us")}>సంప్రదించండి</Button>
             </div> 
           </ul>
         </div>
@@ -136,9 +136,9 @@ const Navbar = ({ user = {} }) => {
 
           {/* LANG */}
         <div class="dropdown">
-          <Button class="dropbtn" variant="dropdown">Language</Button>
+          <Button class="dropbtn" variant="dropdown">Lang</Button>
           <div class="dropdown-content">
-            <a href="#">English</a>
+            <a href="-te">English</a>
             <a href="-te">తెలుగు</a>
           </div>
         </div>

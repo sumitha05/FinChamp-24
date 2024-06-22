@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import "../../styles/components/home/finance-cards.css";
 
-const FinanceCards = ({ imageUrl, topic, url }) => {
+const FinanceCardsTe = ({ imageUrl, topic, url }) => {
   return (
     <div className='HomeCards'>
       <div>
@@ -15,7 +15,7 @@ const FinanceCards = ({ imageUrl, topic, url }) => {
       <div className="card-text ">
         <h2>{topic}</h2>
         <Link href={url} passHref legacyBehavior>
-          <a className='learn-more-button'>Learn more</a>
+          <a className='learn-more-button'>ఇంకా నేర్చుకో</a>
         </Link>
       </div>
       </div>
@@ -23,4 +23,4 @@ const FinanceCards = ({ imageUrl, topic, url }) => {
   );
 };
 
-export default FinanceCards;
+export default FinanceCardsTe;
