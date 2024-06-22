@@ -70,9 +70,9 @@ To run the Digital Wallet App, ensure that your development environment meets th
 Here are some screenshots of our DigiRupi App:
 
    <p align="center">
-  <img src="./assets/5.jpeg" alt="Logo" width="200" height="500">
-  <img src="./assets/2.jpeg" alt="Logo" width="200" height="500">
-  <img src="./assets/3.jpeg" alt="Logo" width="200" height="500">
+  <img src="landing.png" alt="Logo" width="200" height="500">
+  <img src="signup.png" alt="Logo" width="200" height="500">
+  <img src="Home-Page-Student.png" alt="Logo" width="200" height="500">
 </p>
 
 <p align="center">
