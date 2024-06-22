@@ -25,9 +25,9 @@ FinChamp utilises Next.js for fast performance and SEO, Drizzle + Neon for scala
 - Interactive learning modules with quizzes and challenges.
 - Easy comparison tools for credit cards, loans, and investments.
 - Robust security measures with advanced data encryption.
-- Access to the latest financial news and trends supported by an AI chatbot.
+- Access the latest financial news and trends supported by an AI chatbot.
 - Real-time virtual trading experience to monitor stock market performance.
-- Rewards system and user feedback via a contact form.
+- Rewards system and user feedback via a contact form
 
 ## System Requirements
 
