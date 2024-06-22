@@ -1,6 +1,6 @@
 <p align="center">
   <img src="logo.png" width="350" title="hover text">
-<!--    <h1 align="center">FinChamp</h1> -->
+
   <br />
 </p>
 
