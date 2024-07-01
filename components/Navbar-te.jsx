@@ -73,24 +73,15 @@ const Navbar = ({ user = {} }) => {
   };
 
   //lang
-  const handleLangChange = (event) => {
-    let lang = event.target.value;
-    setSelectedLang(lang);
-    
-
-   
-    if (lang === 'English') {
-      router.push('/home-retiree');
-    } else if (lang === 'Telugu') {
-      router.push('/home-retiree-te');
+  const handleLanguageChange = (event) => {
+    const id = event.target.id;
+    if (id === 'english') {
+      router.push('/home-retiree/retiree-opportunities');
+    } else if (id === 'telugu') {
+      router.push('/home-retiree-te/retiree-opportunities-te');
     }
-
-    event.preventDefault();
-    lang = selectedLang;
-
-    setIsLangModalOpen(false);
-    
   };
+
 
   const handlesubmit = (event) => {
     event.preventDefault();
@@ -138,8 +129,8 @@ const Navbar = ({ user = {} }) => {
         <div class="dropdown">
           <Button class="dropbtn" variant="dropdown">Lang</Button>
           <div class="dropdown-content">
-            <a href="-te">English</a>
-            <a href="-te">తెలుగు</a>
+            <a href={handleLanguageChange} id="english" onClick={handleLanguageChange}>English</a>
+            <a href={handleLanguageChange} id="telugu" onClick={handleLanguageChange}>తెలుగు</a>
           </div>
         </div>
         </div>
